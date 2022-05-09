@@ -1,0 +1,103 @@
+@import "./variables";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+}
+
+p {
+    margin: 0rem 0rem;
+    padding: 0rem;
+}
+
+body {
+    display: flex;
+    min-height: 150vh;
+    justify-content: center;
+    margin: 0px 0px; 
+    background-color: hsl(218, 23%, 16%);
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;  
+    max-width: 50rem;
+}
+
+.card {
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 20rem;
+}
+
+.adviceNumber {
+    text-transform: uppercase;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin: 1.5rem 0;
+    font-size: .75rem;
+    letter-spacing: .15rem;
+    color: hsla(150, 100%, 66%, 0.808);
+}
+
+.advice {
+    color: #ffffffb2;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    height: auto;
+    line-height: 1.5;
+}
+
+.divider {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.diceArea {
+    position: relative;
+}
+.dice {
+    border-radius: 100px;
+    background-color: hsl(150, 100%, 66%);
+    padding: 1.5rem 1.5rem;
+    position: absolute;
+    top: 3rem;
+    left: 6.75rem;
+    &:hover {
+            // background-color: #fff;
+            box-shadow:
+              0 0 20px 10px hsl(150, 100%, 66%);
+          
+    }
+}
+
+.dice img {
+    width: 2rem;
+}
+
+@media only screen and (min-width: 480px) {
+    .card {
+        width: 25rem;
+    }
+}
+
+
+
+
+
+

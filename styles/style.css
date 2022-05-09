@@ -1,0 +1,115 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-family: 'Manrope', sans-serif;
+}
+
+p {
+  margin: 0rem 0rem;
+  padding: 0rem;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 150vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px 0px;
+  background-color: #1f2632;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  max-width: 50rem;
+}
+
+.card {
+  background-color: #323a49;
+  border-radius: 10px;
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  width: 20rem;
+}
+
+.adviceNumber {
+  text-transform: uppercase;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  margin: 1.5rem 0;
+  font-size: .75rem;
+  letter-spacing: .15rem;
+  color: rgba(82, 255, 168, 0.808);
+}
+
+.advice {
+  color: #ffffffb2;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  height: auto;
+  line-height: 1.5;
+}
+
+.divider {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.diceArea {
+  position: relative;
+}
+
+.dice {
+  border-radius: 100px;
+  background-color: #52ffa8;
+  padding: 1.5rem 1.5rem;
+  position: absolute;
+  top: 3rem;
+  left: 6.75rem;
+}
+
+.dice:hover {
+  -webkit-box-shadow: 0 0 20px 10px #52ffa8;
+          box-shadow: 0 0 20px 10px #52ffa8;
+}
+
+.dice img {
+  width: 2rem;
+}
+
+@media only screen and (min-width: 480px) {
+  .card {
+    width: 25rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
